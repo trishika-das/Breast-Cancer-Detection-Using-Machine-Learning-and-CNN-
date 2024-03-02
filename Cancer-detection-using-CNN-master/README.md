@@ -1,8 +1,25 @@
 # Breast-cancer-detection-using-CNN
 
-Breast cancer constitutes a leading cause of cancer-related deaths worldwide. Accurate diagnosis of cancer from eosin-stained images remains a complex task, as medical professionals often encounter discrepancies in reaching a final verdict. Computer-Aided Diagnosis (CAD) systems offer a means to reduce cost and enhance the efficiency of this intricate process. Traditional classification approaches rely on problem-specific feature extraction methods based on domain knowledge. To address the numerous challenges posed by feature-based techniques, deep learning methods have emerged as significant alternatives.
+Introduction
+Deep learning, particularly Convolutional Neural Networks (CNNs), has revolutionized medical technology by offering powerful tools for diagnostics. However, the limited availability of large and diverse datasets poses challenges in effectively training CNNs for breast cancer detection.
 
-We propose a method for the classification of hematoxylin and eosin-stained breast biopsy images using Convolutional Neural Networks (CNNs). Our method classifies images into four categories: normal tissue, benign lesion, in situ carcinoma, and invasive carcinoma, as well as a binary classification of carcinoma and non-carcinoma. The network architecture is meticulously designed to extract information at various scales, encompassing both individual nuclei and the overall tissue organization. This design enables the seamless integration of our proposed system with whole-slide histology images. Our method achieves an accuracy of 77.8% for the four-class classification and demonstrates a sensitivity of 95.6% for cancer cases.
+Objective
+This project aims to enhance breast cancer detection through cutting-edge technology, leveraging the transformative potential of CNNs and transfer learning methodologies. By addressing the challenges posed by dataset size limitations, the goal is to contribute significantly to early and precise breast cancer detection, ultimately improving healthcare outcomes.
+
+Approach
+Utilizing transfer learning techniques, the project adapts pre-trained models like RetinaNet for the subtle task of binary mass and non-mass classification crucial for accurate breast cancer identification. The integration of advanced image processing methods enhances data quality and reduces noise in medical images, further refining the sensitivity and reliability of cancer discovery.
+
+Experiment Results
+After a set number of training epochs, the machine learning model achieved an impressive accuracy of 97%. This underscores the effectiveness of the model in training, convergence, and generalization from data. However, constant monitoring is essential for real-world application, considering variations in the significance of accuracy across different issue areas.
+
+Impact
+This project's innovative approach offers promising advancements in breast cancer diagnostics. By seamlessly integrating sophisticated image processing techniques with state-of-the-art CNN technologies, it bridges critical gaps in cancer detection, empowering healthcare professionals with dependable tools for early diagnosis and effective treatment. Ultimately, this contributes to the global efforts against breast cancer, promising better healthcare outcomes and improved patient care.
+
+Repository Structure
+Code: Contains Python scripts for model training, evaluation, and inference.
+Datasets: Includes sample breast biopsy image datasets used for training and testing.
+Documentation: Provides detailed documentation on project methodology, experimental setup, and results.
+Models: Contains pre-trained models and model checkpoints for reproducibility and further experimentation.
 
 To use this project:
 
